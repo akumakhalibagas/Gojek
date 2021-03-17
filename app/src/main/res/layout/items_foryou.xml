@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For your convenience"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Gopay Partners safety protocol implementation!"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/_3sdp"/>
+
+        <com.rishabhharit.roundedimageview.RoundedImageView
+            android:id="@+id/rounded"
+            android:layout_width="match_parent"
+            android:src="@drawable/img1"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:cornerRadius="@dimen/_12sdp"
+            android:layout_height="@dimen/_120sdp"/>
+
+    </LinearLayout>
+
+</layout>
